@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAVAN Private Space</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/19a6b3d5b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+<div class="container">
+    <nav>
+        <img src="images/logo.jpeg" class="logo" alt="">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+    </nav>
+    <div class="header-text">
+        <p>Computer Designer</p>
+       <h1>Hi, i'm <span>PAVAN BALLA</span><br>from INDIA</h1>
+        
+    </div>
+</div>
+
+<!-------------------about---------------->
+ </div> 
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/2023-04-29 12.35.01.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"Hello welcome to my personal site,
+                     i'm from Samalkot, East Godavari District, Andhra Pradesh, with a postal code of 533440. Currently, you're pursuing a Bachelor of Technology degree at ANITS College in Visakhapatnam.
+                    have a nice day
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Analytical skills</span><br>to solve complex problems</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Technical skills</span><br>Software Development tools</li>                   
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>No Experience</span><br>Still learning<br></li>
+                                          
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        
+                        <li><span>DR K K R'S GOWTHAM</span><br>SCHOOL</li>
+                        <li><span>SRI CHAITANYA</span><br>intermediate college</li>
+                        <li><span>ANITS</span><br>BTECH College</li>                  
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    
+    </div>
+ </div>
+ <!-------services-------------------------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>As a developer, you play a crucial role in building and maintaining a webpage. Your expertise in programming languages, frameworks, and web technologies is essential to ensure the functionality, performance, and security of the webpage.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>React App</h2>
+                <p>ABackend Services: To create a full-stack web application, you will likely need a backend to handle data storage and processing. Popular backend services for React apps include Node.js, Express.js, and MongoDB.
+
+                    Deployment Services: Once you have developed your React app, you will need to deploy it to a web server so that it can be accessed by users. There are several deployment services available, such as Heroku, Netlify, and AWS Elastic Beanstalk, that can make this process easier..</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>UI/UX</h2>
+                <p>As a developer, you play a crucial role in building and maintaining a webpage. Your expertise in programming languages, frameworks, and web technologies is essential to ensure the functionality, performance, and security of the webpage.</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+ </div>
+<!---------------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/download (2).jpeg" alt="">
+            
+        <div class="layer">
+            <h3>Social Media App</h3>
+            <p>the app connects you to the talented people around the world.
+                download it from playstore.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/2024-06-11 14.46.45.jpg" alt="">
+        <div class="layer">
+            <h3>React app</h3>
+            <p>This is an Instagram clone that I developed using React.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/download (3).jpeg" alt="">
+    <div class="layer">
+            <h3>Music App</h3>
+            <p>A music app is a software application designed for playing, organizing, and managing digital audio files on a mobile device or computer</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See More</a>
+</div>
+
+</div>
+
+<!-------------------------contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pavanballa043@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9704306850</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/your-profile" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_._pavan._/?utm_source=qr&r=nametag" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.snapchat.com/add/pavan.1203?share_id=7BUqtThfl38&locale=en-IN" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="images/python_basic certificate.pdf" download class="btn btn2">Download CV</a>
+
+
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                
+                
+                
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>The copyright of this website is owned by Pavan<i class="fa-solid fa-heart"></i> as stated by Made by Tutorials
+
+
+
+
+    </p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+ <script>
+ var tablinks = document.getElementsByClassName("tab-links");
+ var tabcontents = document.getElementsByClassName("tab-contents");
+ function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+ }
+    
+
+ </script>
+ <script>
+     var sidemenu=document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right="0";
+     }
+     function closemenu(){
+        sidemenu.style.right="-200px";
+     }
+
+
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxOXEddYUwLMw918HIjV37CcomCOnqwm__7A73MQBI842G4LfFrd-FqLuTXClOvlMuX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML=" Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+    
